@@ -91,6 +91,7 @@ class FtpServerRedes2:
             writer = csv.writer(f)
             for user, userinfo in self.authorizer.user_table.items():
                 userinfo.pop('operms')
+                userinfo.pop('home')
                 writer.writerow([user, * userinfo.values()])
         self.server.close_all()
         self.running = False

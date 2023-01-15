@@ -7,6 +7,7 @@ import _thread as thread
 from FtpServer import FtpServerRedes2
 import sys
 from tkinter import *
+import csv
 
 
 myftpserver = FtpServerRedes2()
@@ -27,7 +28,11 @@ def menumanejoservidor():
             pswd2 = input("Vuelva a introducir la contraseña: ")
             if pswd == pswd2:
                 try:
-                    myftpserver.add_user(nombre, pswd, os.getcwd() + "/" + nombre, "elradfmwMT")
+                    if os.name == "nt":
+                        delimiter = "\\"
+                    else:
+                        delimiter = "/"
+                    myftpserver.add_user(nombre, pswd, os.getcwd() + delimiter + nombre, "elradfmwMT")
                 except ValueError:
                     print("No se pudo agregar al usuario. Intente nuevamente.")
             else:
@@ -81,7 +86,15 @@ def main():
             # mythread2 = threading.Thread(target=menumanejoservidor)
             # mythread2.start()
         else:
-            myftpserver.stop()  # temporal. Luego se deberia hacer por separado
+            if myftpserver.isrunning():
+                myftpserver.stop()  # temporal. Luego se deberia hacer por separado
+            else:
+                with open("users.csv", "w") as f:
+                    writer = csv.writer(f)
+                    for user, userinfo in myftpserver.authorizer.user_table.items():
+                        userinfo.pop('operms')
+                        userinfo.pop('home')
+                        writer.writerow([user, *userinfo.values()])
             return
 
 

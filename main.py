@@ -105,6 +105,17 @@ def main():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        if myftpserver.isrunning():
+            myftpserver.stop()
+        else:
+            with open("users.csv", "w") as f:
+                writer = csv.writer(f)
+                for user, userinfo in myftpserver.authorizer.user_table.items():
+                    userinfo.pop('operms')
+                    userinfo.pop('home')
+                    writer.writerow([user, *userinfo.values()])
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

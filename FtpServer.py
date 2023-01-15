@@ -1,5 +1,6 @@
 import csv
 import datetime
+import socket
 
 from CustomAuthorizer import CustomAuthorizer
 from CustomFTPHandler import MyHandler
@@ -7,7 +8,7 @@ from pyftpdlib.servers import FTPServer
 import os
 import logging
 import shutil
-
+from socket import gethostname, gethostbyname
 
 class FtpServerRedes2:
     def __init__(self):
@@ -31,7 +32,8 @@ class FtpServerRedes2:
         self.handler.passive_ports = range(60000, 65535)
 
         # Server initialization
-        self.address = ("localhost", 8080)
+        # self.address = (gethostbyname(gethostname()), 2121)
+        self.address = ("localhost", 2121)
         self.server = FTPServer(self.address, self.handler)
         self.server.max_cons = 256
         self.server.max_cons_per_ip = 5

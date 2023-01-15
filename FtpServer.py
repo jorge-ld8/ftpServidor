@@ -1,4 +1,6 @@
 import csv
+import datetime
+
 from CustomAuthorizer import CustomAuthorizer
 from CustomFTPHandler import MyHandler
 from pyftpdlib.servers import FTPServer
@@ -11,6 +13,8 @@ class FtpServerRedes2:
     def __init__(self):
         self.handler = None
         self.server = None
+        self.running = False  # if the server is running or not
+        self.timerun = None
         self.authorizer = CustomAuthorizer()
         with open("users.csv", "r+", newline='') as f:
             reader = csv.reader(f, delimiter=',')
@@ -18,6 +22,7 @@ class FtpServerRedes2:
                 self.authorizer.add_user(*user)
 
     def run(self):
+        # Handler initialization
         self.handler = MyHandler
         self.handler.authorizer = self.authorizer
         self.handler.banner = 'Servidor FTP listo para la transferencia de archivos'
@@ -25,12 +30,19 @@ class FtpServerRedes2:
         self.handler.masquerade_address = '151.25.42.11'
         self.handler.passive_ports = range(60000, 65535)
 
+        # Server initialization
         self.address = ("localhost", 8080)
         self.server = FTPServer(self.address, self.handler)
         self.server.max_cons = 256
         self.server.max_cons_per_ip = 5
         logging.basicConfig(filename='pyftpd.log', level=logging.INFO)
+
+        self.running = True
+        self.timerun = datetime.datetime.today()
         self.server.serve_forever(timeout=10)
+
+    def isrunning(self):
+        return self.running
 
     def add_user(self, user, pswd, loc, privi='elradfmwMT', limit=1024):
         self.authorizer.add_user(user, pswd, loc, limit, perm=str(privi))
@@ -73,13 +85,15 @@ class FtpServerRedes2:
             print(f' / {limitemb}MB')
         print("\n")
 
-    def detenerServidor(self):
+    def stop(self):
         # Guardar todos los usuarios en el .txt users
         with open("users.csv", "w") as f:
             writer = csv.writer(f)
             for user, userinfo in self.authorizer.user_table.items():
                 userinfo.pop('operms')
                 writer.writerow([user, * userinfo.values()])
+        self.server.close_all()
+        self.running = False
         return
 
     def validarAdmin(self, username, pswd):

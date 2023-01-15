@@ -22,7 +22,7 @@ class CustomAuthorizer(DummyAuthorizer):
         else:
             raise ValueError(f'user {username} does not exist')
 
-    def add_user(self, username, password, homedir, limit=1024, perm='elr',
+    def add_user(self, username, password, limit=1024, perm='elr',
                  msg_login="Login successful.", msg_quit="Goodbye."):
         """Add a user to the virtual users table.
         AuthorizerError exceptions raised on error conditions such as
@@ -44,6 +44,10 @@ class CustomAuthorizer(DummyAuthorizer):
         Optional msg_login and msg_quit arguments can be specified to
         provide customized response strings when user log-in and quit.
         """
+        if os.name == "posix":
+            homedir = os.getcwd() + "/" + username
+        else:
+            homedir = os.getcwd() + "\\" + username
         if self.has_user(username):
             raise ValueError('user %r already exists' % username)
         if not isinstance(homedir, unicode):

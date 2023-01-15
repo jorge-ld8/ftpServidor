@@ -6,6 +6,7 @@ import threading
 import _thread as thread
 from FtpServer import FtpServerRedes2
 import sys
+from tkinter import *
 
 
 myftpserver = FtpServerRedes2()
@@ -54,6 +55,7 @@ def menumanejoservidor():
 
 def main():
     # set a limit for connections
+
     while True:
         print("Bienvenido al Manejador del Servidor FTP")
         print("\t1.Iniciar Servidor")
@@ -66,7 +68,7 @@ def main():
             mythread.start()
             print("\nServidor iniciado exitosamente\n")
         elif opcion == "2":
-            myftpserver.detenerServidor()
+            myftpserver.stop()
             print("\nServidor detenido exitosamente\n")
         elif opcion == "3":
             # start ftp server
@@ -79,8 +81,10 @@ def main():
             # mythread2 = threading.Thread(target=menumanejoservidor)
             # mythread2.start()
         else:
-            myftpserver.detenerServidor()
+            myftpserver.stop()  # temporal. Luego se deberia hacer por separado
             return
+
+
 
     # thread.start_new_thread(myftpserver.run, ())
     # thread.start_new_thread(myftpserver.add_user, ('user', 'password', ".", 'elradfmwM'))

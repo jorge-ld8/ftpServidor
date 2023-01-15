@@ -28,11 +28,7 @@ def menumanejoservidor():
             pswd2 = input("Vuelva a introducir la contraseña: ")
             if pswd == pswd2:
                 try:
-                    if os.name == "nt":
-                        delimiter = "\\"
-                    else:
-                        delimiter = "/"
-                    myftpserver.add_user(nombre, pswd, os.getcwd() + delimiter + nombre, "elradfmwMT")
+                    myftpserver.add_user(nombre, pswd, privi="elradfmwMT")
                 except ValueError:
                     print("No se pudo agregar al usuario. Intente nuevamente.")
             else:

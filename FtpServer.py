@@ -46,8 +46,8 @@ class FtpServerRedes2:
     def isrunning(self):
         return self.running
 
-    def add_user(self, user, pswd, loc, privi='elradfmwMT', limit=1024):
-        self.authorizer.add_user(user, pswd, loc, limit, perm=str(privi))
+    def add_user(self, user, pswd, privi='elradfmwMT', limit=1024):
+        self.authorizer.add_user(user, pswd, limit, perm=str(privi))
 
     def remove_user(self, user):
         if self.authorizer.has_user(user):

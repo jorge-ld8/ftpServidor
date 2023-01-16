@@ -1,6 +1,8 @@
 import os
 import shutil
-from pyftpdlib.handlers import FTPHandler
+
+from pyftpdlib.filesystems import FilesystemError
+from pyftpdlib.handlers import FTPHandler, _strerror
 from CustomAuthorizer import CustomAuthorizer
 
 proto_cmds = FTPHandler.proto_cmds.copy()
@@ -25,9 +27,20 @@ class MyHandler(FTPHandler):
     authorizer = CustomAuthorizer()
     proto_cmds = proto_cmds
 
-    def ftp_STOU(self, line):
-        super().ftp_STOU(line)
+    def _get_dir_size(self, path='.'):
+        total = 0
+        with os.scandir(path) as it:
+            for entry in it:
+                if entry.is_file():
+                    total += entry.stat().st_size
+                elif entry.is_dir():
+                    total += self._get_dir_size(entry.path)
+        return total
 
+    def on_file_received(self, file):
+        if (self.fs.getsize(file) + self._get_dir_size(self.authorizer.user_table[self.username]['home'])) > float(self.authorizer.user_table[self.username]['limite']):
+           self.run_as_current_user(self.fs.remove, file)
+           return
 
     def ftp_SITE_PSWD(self, line: str):
         """

@@ -91,8 +91,8 @@ class FtpServerRedes2:
             usadomb = self._get_dir_size(self.authorizer.user_table[username]['home'])/1024
             limitemb = float(self.authorizer.user_table[username]["limite"])/1024
             print(f'+\t{username}', end="")
-            print(f' {usadomb:.2f}MB', end="")
-            print(f' / {limitemb}MB')
+            print(f' {usadomb:.2f}KB', end="")
+            print(f' / {limitemb}KB')
         print("\n")
 
     def stop(self):

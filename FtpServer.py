@@ -17,10 +17,7 @@ class FtpServerRedes2:
         self.running = False  # if the server is running or not
         self.timerun = None
         self.authorizer = CustomAuthorizer()
-        with open("users.csv", "r+", newline='') as f:
-            reader = csv.reader(f, delimiter=',')
-            for user in reader:
-                self.authorizer.add_user(*user)
+        self.getUsers()
 
     def run(self):
         # Handler initialization
@@ -43,6 +40,17 @@ class FtpServerRedes2:
         self.timerun = datetime.datetime.today()
         self.server.serve_forever(timeout=10)
 
+
+    def getUsers(self):
+        with open("users.csv", "r+", newline='') as f:
+            reader = csv.reader(f, delimiter=',')
+            cont = 0
+            for user in reader:
+                cont += 1
+                print(str(cont) + " " + user[0])
+                print(self.authorizer.user_table.keys())
+                if not user[0] in self.authorizer.user_table.keys():
+                    self.authorizer.add_user(*user)
     def isrunning(self):
         return self.running
 
@@ -91,10 +99,13 @@ class FtpServerRedes2:
         # Guardar todos los usuarios en el .txt users
         with open("users.csv", "w") as f:
             writer = csv.writer(f)
+            print(self.authorizer.user_table.items())
             for user, userinfo in self.authorizer.user_table.items():
-                userinfo.pop('operms')
-                userinfo.pop('home')
+                o = userinfo.pop('operms')
+                h = userinfo.pop('home')
                 writer.writerow([user, * userinfo.values()])
+                userinfo['operms'] = o
+                userinfo['home'] = h
         self.server.close_all()
         self.running = False
         return

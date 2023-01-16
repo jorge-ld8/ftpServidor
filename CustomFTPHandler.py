@@ -25,6 +25,10 @@ class MyHandler(FTPHandler):
     authorizer = CustomAuthorizer()
     proto_cmds = proto_cmds
 
+    def ftp_STOU(self, line):
+        super().ftp_STOU(line)
+
+
     def ftp_SITE_PSWD(self, line: str):
         """
         Change user password

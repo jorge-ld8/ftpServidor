@@ -75,7 +75,11 @@ class MyHandler(FTPHandler):
 
         # Mover archivo
         try:
-            drtry = shutil.copy(f'{filepath}', f'/home/jorgegetsmad/PycharmProjects/pythonProject1/{user}')
+            if os.name == "nt":
+                delimiter = "\\"
+            else:
+                delimiter = "/"
+            drtry = shutil.copy(f'{filepath}', f'{os.getcwd()}{delimiter}{user}')
         except OSError as err:
             self.respond(f' 550 {err}')
             return

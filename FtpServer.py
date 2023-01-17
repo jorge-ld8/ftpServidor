@@ -29,6 +29,14 @@ class FtpServerRedes2:
         self.handler.passive_ports = range(60000, 65535)
 
         # Server initialization
+
+        # OPCION 1
+        # s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        # s.connect(("8.8.8.8", 80))
+        # ipaddress = s.getsockname()[0]
+        # self.address = (ipaddress, 2121)
+
+        # OPCION 2
         # self.address = (gethostbyname(gethostname()), 2121)
         self.address = ("localhost", 2121)
         self.server = FTPServer(self.address, self.handler)

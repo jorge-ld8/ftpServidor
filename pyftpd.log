@@ -738,3 +738,498 @@ INFO:pyftpdlib:passive ports: 60000->65534
 INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=45372 <<<
 INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=45372 <<<
 INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=45372 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=23041 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=23084 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=23084 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=23250 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=23380 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=23380 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=23410 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=23410 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=23698 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=23698 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:8080, pid=37686 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=39379 <<<
+INFO:pyftpdlib:127.0.0.1:54820-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:54820-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:54820-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=39379 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.1.1:2121, pid=39763 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=39763 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=39851 <<<
+INFO:pyftpdlib:127.0.0.1:59918-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:59918-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:37826-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:37826-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=41579 <<<
+INFO:pyftpdlib:127.0.0.1:57970-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:57970-[diego] USER 'diego' logged in.
+INFO:pyftpdlib:127.0.0.1:57970-[diego] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=49599 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=49599 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=49712 <<<
+INFO:pyftpdlib:127.0.0.1:47060-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:47060-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:47060-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=49712 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=50556 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=50556 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=50556 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63304 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63304 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63461 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63461 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63590 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63590 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=63590 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63867 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=63867 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=73974 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=73974 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=74028 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=74028 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=74483 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=74483 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=74631 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=74631 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=74631 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=75573 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=75573 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=75573 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=75628 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=75628 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=75628 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76072 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76072 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76072 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76072 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=76072 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=76072 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=76072 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=76072 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76105 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76105 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76345 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76345 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76480 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=76480 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76530 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=76530 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=76530 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77377 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77471 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77471 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=77471 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=77471 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77537 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77537 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=77537 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=77537 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77607 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77607 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77607 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77607 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=77607 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=77607 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=77607 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=77667 <<<
+INFO:pyftpdlib:127.0.0.1:43436-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:43436-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:43436-[jorge] SITE SHAREFILE completed for user 'jorge' in path /home/jorgegetsmad/PycharmProjects/pythonProject1/diego
+INFO:pyftpdlib:127.0.0.1:43436-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:44854-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:44854-[diego] USER 'diego' logged in.
+INFO:pyftpdlib:127.0.0.1:44854-[diego] Control connection timed out.
+INFO:pyftpdlib:127.0.0.1:44854-[diego] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:45054-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:45054-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:45054-[jorge] SITE SHAREFILE completed for user 'jorge' in path /home/jorgegetsmad/PycharmProjects/pythonProject1/jorge
+INFO:pyftpdlib:127.0.0.1:45054-[jorge] Control connection timed out.
+INFO:pyftpdlib:127.0.0.1:45054-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=80537 <<<
+INFO:pyftpdlib:127.0.0.1:46558-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:46558-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:46558-[jorge] SITE SHAREFILE completed for user 'jorge' in path /home/jorgegetsmad/PycharmProjects/ftpServidor/diego/test1.txt.rgtyzhj7
+INFO:pyftpdlib:127.0.0.1:46558-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:33610-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:33610-[diego] USER 'diego' logged in.
+INFO:pyftpdlib:127.0.0.1:33610-[diego] DELE /home/jorgegetsmad/PycharmProjects/ftpServidor/diego/test1.txt.rgtyzhj7 250
+INFO:pyftpdlib:127.0.0.1:33610-[diego] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:53478-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:53478-[diego] USER 'diego' logged in.
+INFO:pyftpdlib:127.0.0.1:53478-[diego] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:44286-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:44286-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:44286-[jorge] SITE SHAREFILE completed for user 'jorge' in path /home/jorgegetsmad/PycharmProjects/ftpServidor/diego/test1.txt.rgtyzhj7
+INFO:pyftpdlib:127.0.0.1:44286-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:32886-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:32886-[] USER 'JORGE' failed login.
+INFO:pyftpdlib:127.0.0.1:32886-[] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:53056-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:53056-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:53056-[jorge] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/jorge/test2.txt completed=1 bytes=0 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:53056-[jorge] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/jorge/test1.txt completed=1 bytes=24 seconds=0.008
+INFO:pyftpdlib:127.0.0.1:53056-[jorge] Control connection timed out.
+INFO:pyftpdlib:127.0.0.1:53056-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=83560 <<<
+INFO:pyftpdlib:127.0.0.1:33410-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:33410-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:33410-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:49728-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:49728-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:49728-[jorge] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/jorge/10mb.txt completed=1 bytes=0 seconds=0.009
+INFO:pyftpdlib:127.0.0.1:49728-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=84838 <<<
+INFO:pyftpdlib:127.0.0.1:48654-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:48654-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:47942-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:47942-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:47942-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.01
+INFO:pyftpdlib:127.0.0.1:48654-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:47942-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=84838 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=85018 <<<
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=85018 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=86482 <<<
+INFO:pyftpdlib:127.0.0.1:44036-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:44036-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:44036-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.008
+INFO:pyftpdlib:127.0.0.1:44036-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=86627 <<<
+INFO:pyftpdlib:127.0.0.1:42466-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:42466-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:42466-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:42466-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=86797 <<<
+INFO:pyftpdlib:127.0.0.1:52132-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:52132-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:52132-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test2.txt completed=1 bytes=0 seconds=0.001
+INFO:pyftpdlib:127.0.0.1:52132-[hola] Control connection timed out.
+INFO:pyftpdlib:127.0.0.1:52132-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=86797 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=87679 <<<
+INFO:pyftpdlib:127.0.0.1:54956-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:54956-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:54956-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.002
+CRITICAL:pyftpdlib:Traceback (most recent call last):
+  File "/usr/lib/python3.8/asyncore.py", line 83, in read
+    obj.handle_read_event()
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 796, in handle_read
+    chunk = self.recv(self.ac_in_buffer_size)
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/ioloop.py", line 915, in recv
+    self.handle_close()
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 885, in handle_close
+    self.close()
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 916, in close
+    self.cmd_channel.on_file_received(filename)
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/CustomFTPHandler.py", line 45, in on_file_received
+    raise ValueError('limite alcanzado')
+ValueError: limite alcanzado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 860, in handle_error
+    self.close()
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 890, in close
+    debug("call: close()", inst=self)
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/log.py", line 135, in debug
+    s += " (%r)" % inst
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 629, in __repr__
+    self.cmd_channel.get_repr_info(as_str=True))
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 1345, in get_repr_info
+    if dc.use_sendfile():
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 642, in use_sendfile
+    self.file_obj.fileno()
+ValueError: I/O operation on closed file
+
+ERROR:pyftpdlib:Traceback (most recent call last):
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/main.py", line 105, in <module>
+    main()
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/main.py", line 79, in main
+    menumanejoservidor()
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/main.py", line 24, in menumanejoservidor
+    resp = input("\tOpcion: ")
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/ioloop.py", line 389, in close
+    inst.close()
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 1595, in close
+    debug("call: close()", inst=self)
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/log.py", line 135, in debug
+    s += " (%r)" % inst
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 1356, in __repr__
+    return '<%s(%s)>' % (self.__class__.__name__, self.get_repr_info(True))
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 1345, in get_repr_info
+    if dc.use_sendfile():
+  File "/home/jorgegetsmad/PycharmProjects/ftpServidor/venv/lib/python3.8/site-packages/pyftpdlib/handlers.py", line 642, in use_sendfile
+    self.file_obj.fileno()
+ValueError: I/O operation on closed file
+
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=88237 <<<
+INFO:pyftpdlib:127.0.0.1:57922-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:57922-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:57922-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:57922-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:55730-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:55730-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:55730-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.001
+INFO:pyftpdlib:127.0.0.1:41230-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:55730-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:41230-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:41230-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:51006-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:51006-[] USER 'admin' failed login.
+INFO:pyftpdlib:127.0.0.1:51006-[] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:47248-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:47248-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:47248-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=88506 <<<
+INFO:pyftpdlib:127.0.0.1:39598-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:39598-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:39598-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:39598-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:37662-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:37662-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:37662-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:37662-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:42240-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:42240-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:42240-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:42240-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:58278-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:58278-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:58278-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=88506 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=88945 <<<
+INFO:pyftpdlib:127.0.0.1:40916-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:40916-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:40916-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.003
+INFO:pyftpdlib:127.0.0.1:40916-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=88982 <<<
+INFO:pyftpdlib:127.0.0.1:53406-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:53406-[hola] USER 'hola' logged in.
+INFO:pyftpdlib:127.0.0.1:53406-[hola] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/hola/test1.txt completed=1 bytes=1255 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:53406-[hola] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:44518-[] FTP session opened (connect)
+INFO:pyftpdlib:127.0.0.1:44518-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:127.0.0.1:44518-[jorge] STOR /home/jorgegetsmad/PycharmProjects/ftpServidor/jorge/test1.txt completed=1 bytes=1255 seconds=0.002
+INFO:pyftpdlib:127.0.0.1:44518-[jorge] FTP session closed (disconnect).
+INFO:pyftpdlib:>>> shutting down FTP server, 0 socket(s), pid=88982 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 192.168.250.14:2121, pid=8715 <<<
+INFO:pyftpdlib:192.168.250.14:33760-[] FTP session opened (connect)
+INFO:pyftpdlib:192.168.250.14:33760-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:192.168.250.14:33760-[jorge] DELE /home/jorgegetsmad/PycharmProjects/ftpServidor/jorge/10Mb.txt 550 'No such file or directory.'
+INFO:pyftpdlib:192.168.250.14:33760-[jorge] DELE /home/jorgegetsmad/PycharmProjects/ftpServidor/jorge/test1.txt 250
+INFO:pyftpdlib:192.168.250.14:33760-[jorge] DELE /home/jorgegetsmad/PycharmProjects/ftpServidor/jorge/test2.txt 250
+INFO:pyftpdlib:192.168.250.14:33760-[jorge] FTP session closed (disconnect).

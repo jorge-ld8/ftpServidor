@@ -45,9 +45,9 @@ class CustomAuthorizer(DummyAuthorizer):
         provide customized response strings when user log-in and quit.
         """
         if os.name == "posix":
-            homedir = os.getcwd() + "/" + username
+            homedir = os.getcwd() + "/" + "FtpServerGenesis" "/" + username
         else:
-            homedir = os.getcwd() + "\\" + username
+            homedir = os.getcwd() + "\\" + "FtpServerGenesis" + "\\" + username
         if self.has_user(username):
             raise ValueError('user %r already exists' % username)
         if not isinstance(homedir, unicode):
@@ -58,7 +58,7 @@ class CustomAuthorizer(DummyAuthorizer):
         self._check_permissions(username, perm)
         dic = {'pwd': str(password),
                'home': homedir,
-               'limite': limit,
+               'limite': str(limit),
                'perm': perm,
                'operms': {},
                'msg_login': str(msg_login),

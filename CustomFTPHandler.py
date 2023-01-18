@@ -1,9 +1,9 @@
 import os
 import shutil
-
-from pyftpdlib.filesystems import FilesystemError
 from pyftpdlib.handlers import FTPHandler, _strerror
 from CustomAuthorizer import CustomAuthorizer
+from datetime import datetime
+
 
 proto_cmds = FTPHandler.proto_cmds.copy()
 # SITE PSWD command to let clients change its password
@@ -41,6 +41,10 @@ class MyHandler(FTPHandler):
         if (self.fs.getsize(file) + self._get_dir_size(self.authorizer.user_table[self.username]['home'])) > float(self.authorizer.user_table[self.username]['limite']):
            self.run_as_current_user(self.fs.remove, file)
            return
+
+    def on_login(self, username):
+        with open("usersReport.txt", "a+") as f:
+            f.write(f'{username}, {datetime.now()}\n')
 
     def ftp_SITE_PSWD(self, line: str):
         """
@@ -92,7 +96,7 @@ class MyHandler(FTPHandler):
                 delimiter = "\\"
             else:
                 delimiter = "/"
-            drtry = shutil.copy(f'{filepath}', f'{os.getcwd()}{delimiter}{user}')
+            drtry = shutil.copy(f'{filepath}', f'{os.getcwd()}{delimiter}FtpServerGenesis{delimiter}{user}')
         except OSError as err:
             self.respond(f' 550 {err}')
             return

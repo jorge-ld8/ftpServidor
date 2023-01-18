@@ -10,6 +10,7 @@ import logging
 import shutil
 from socket import gethostname, gethostbyname
 
+
 class FtpServerRedes2:
     def __init__(self):
         self.handler = None
@@ -31,14 +32,14 @@ class FtpServerRedes2:
         # Server initialization
 
         # OPCION 1
-        # s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        # s.connect(("8.8.8.8", 80))
-        # ipaddress = s.getsockname()[0]
-        # self.address = (ipaddress, 2121)
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ipaddress = s.getsockname()[0]
+        self.address = (ipaddress, 2121)
 
         # OPCION 2
         # self.address = (gethostbyname(gethostname()), 2121)
-        self.address = ("localhost", 2121)
+        # self.address = ("localhost", 2121)
         self.server = FTPServer(self.address, self.handler)
         self.server.max_cons = 256
         self.server.max_cons_per_ip = 5
@@ -48,17 +49,15 @@ class FtpServerRedes2:
         self.timerun = datetime.datetime.today()
         self.server.serve_forever(timeout=10)
 
-
     def getUsers(self):
         with open("users.csv", "r+", newline='') as f:
             reader = csv.reader(f, delimiter=',')
-            cont = 0
             for user in reader:
-                cont += 1
-                print(str(cont) + " " + user[0])
-                print(self.authorizer.user_table.keys())
-                if not user[0] in self.authorizer.user_table.keys():
-                    self.authorizer.add_user(*user)
+                if len(user):
+                    print(self.authorizer.user_table.keys())
+                    if not user[0] in self.authorizer.user_table.keys():
+                        self.authorizer.add_user(*user)
+
     def isrunning(self):
         return self.running
 
@@ -103,7 +102,8 @@ class FtpServerRedes2:
             print(f' / {limitemb}KB')
         print("\n")
 
-    def stop(self):
+
+    def saveUsers(self):
         # Guardar todos los usuarios en el .txt users
         with open("users.csv", "w") as f:
             writer = csv.writer(f)
@@ -114,6 +114,9 @@ class FtpServerRedes2:
                 writer.writerow([user, * userinfo.values()])
                 userinfo['operms'] = o
                 userinfo['home'] = h
+
+    def stop(self):
+        self.saveUsers()
         self.server.close_all()
         self.running = False
         return
@@ -121,5 +124,12 @@ class FtpServerRedes2:
     def validarAdmin(self, username, pswd):
         for admin in self.authorizer.admins_table:
             if admin['user'] == username and admin['password'] == pswd:
+                # write to text file
+                with open("admins.txt", "a+") as f:
+                    f.write(f'{admin["user"]}, {datetime.datetime.now()}')
                 return True
         return False
+
+    def desconectarAdmin(self):
+        with open("admins.txt", "a+") as f:
+            f.write(f', {datetime.datetime.now()}\n')

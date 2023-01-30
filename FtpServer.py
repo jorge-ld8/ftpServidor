@@ -1,14 +1,12 @@
 import csv
 import datetime
 import socket
-
 from CustomAuthorizer import CustomAuthorizer
 from CustomFTPHandler import MyHandler
 from pyftpdlib.servers import FTPServer
 import os
 import logging
 import shutil
-from socket import gethostname, gethostbyname
 
 
 class FtpServerRedes2:
@@ -54,7 +52,6 @@ class FtpServerRedes2:
             reader = csv.reader(f, delimiter=',')
             for user in reader:
                 if len(user):
-                    print(self.authorizer.user_table.keys())
                     if not user[0] in self.authorizer.user_table.keys():
                         self.authorizer.add_user(*user)
 

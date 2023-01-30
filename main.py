@@ -1,12 +1,5 @@
-import os
-from pyftpdlib.servers import FTPServer
-from CustomAuthorizer import CustomAuthorizer
-from CustomFTPHandler import MyHandler
 import threading
-import _thread as thread
 from FtpServer import FtpServerRedes2
-import sys
-from tkinter import *
 import csv
 
 

@@ -64,6 +64,4 @@ class CustomAuthorizer(DummyAuthorizer):
                'msg_login': str(msg_login),
                'msg_quit': str(msg_quit),
                }
-        print(username)
-        print(dic.keys())
         self.user_table[username] = dic

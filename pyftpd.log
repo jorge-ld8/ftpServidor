@@ -52,3 +52,10 @@ INFO:pyftpdlib:concurrency model: async
 INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
 INFO:pyftpdlib:passive ports: 60000->65534
 INFO:pyftpdlib:>>> starting FTP server on 192.168.250.14:2121, pid=7910 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: 151.25.42.11
+INFO:pyftpdlib:passive ports: 60000->65534
+INFO:pyftpdlib:>>> starting FTP server on 192.168.250.14:2121, pid=22604 <<<
+INFO:pyftpdlib:192.168.250.14:46884-[] FTP session opened (connect)
+INFO:pyftpdlib:192.168.250.14:46884-[jorge] USER 'jorge' logged in.
+INFO:pyftpdlib:192.168.250.14:46884-[jorge] FTP session closed (disconnect).

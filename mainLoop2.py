@@ -2,10 +2,10 @@ import os
 import socket
 from PyQt5 import QtWidgets, uic
 from FtpServer import FtpServerRedes2
-from PyQt5.QtWidgets import QFileSystemModel
+from PyQt5.QtWidgets import QFileSystemModel, QShortcut
 import threading
 from PyQt5 import QtGui
-from PyQt5.QtGui import QIntValidator
+from PyQt5.QtGui import QIntValidator, QKeySequence
 
 
 myftpserver = FtpServerRedes2()
@@ -170,6 +170,8 @@ def handle_salida():
 
 
 # Botones login
+loginShortcut = QShortcut(QKeySequence("Return"), login)  # enter shortcut
+loginShortcut.activated.connect(gui_login)
 login.loginBtn.clicked.connect(gui_login)
 
 # Botones pagina principal
